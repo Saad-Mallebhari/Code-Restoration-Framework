@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    int num[] = {1,2,3,4,5};
+    num[4] = 20;
+    printf("Number at index 4 : %d",num[4]);
+    return 0;
+}
