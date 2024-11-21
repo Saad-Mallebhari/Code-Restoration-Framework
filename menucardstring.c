@@ -2,13 +2,14 @@
 int main(){
     int a;
     int ans = 1;
+    int total = 0;
     while(ans==1){
     printf("Menu :\n");
     printf("No. 1 : Burger - Rs. 500\n ");
     printf("No. 2 : Pizza - Rs. 600\n ");
     printf("Order number : ");
     scanf("%d",&a);
-    int b,c,x,y;
+    int b=0,c=0,x=0,y=0;
     switch(a){
         case 1:
         printf("How much pieces ? : ");
